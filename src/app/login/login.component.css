@@ -1,0 +1,62 @@
+/* Structure */
+.container{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+  background-color: goldenrod;
+  border-radius: 12px;
+  padding: 3%;
+}
+input{
+  margin: 0 auto;
+  width: 500px;
+}
+button{
+  width: 100px;
+  border-radius: 12px;
+}
+button:hover{
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+.example-container {
+  position: relative;
+  padding: 5px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-full-width:nth-last-child(0) {
+  margin-bottom: 10px;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+
+.mat-flat-button {
+  margin: 5px;
+}
+
+
+@media screen and (max-width: 650px){
+  .container{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50%;
+    background-color: goldenrod;
+    border-radius: 12px;
+    padding: 3%;
+  }
+}

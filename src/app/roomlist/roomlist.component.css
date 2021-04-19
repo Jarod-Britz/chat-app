@@ -1,0 +1,106 @@
+/* Structure */
+.container{
+  width: 700px;
+  margin: 0 auto;
+  background-color:goldenrod;
+  border-radius: 12px;
+  padding: 3% !important;
+  margin-top: 10%;
+}
+.exit{
+  margin: 22px 0 0 0;
+  position: fixed;
+  border: none;
+  border-radius: 5px;
+}
+.exit:hover{
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+.create{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 330px;
+}
+.create button{
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.create button:hover{
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+th{
+  font-size: 18px;
+}
+td{
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+td:hover{
+  background-color: #5e5e5e;
+}
+.example-container {
+  position: relative;
+  padding: 10px;
+}
+
+.example-table-container {
+  position: relative;
+  max-height: 400px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+
+.example-loading-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 56px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-rate-limit-reached {
+  color: #980000;
+  max-width: 360px;
+  text-align: center;
+}
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+  max-width: 64px;
+}
+
+.mat-column-created {
+  max-width: 124px;
+}
+
+
+@media screen and (max-width:650px){
+  .container{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+  .container h1{
+    font-size: 20px;
+  }
+  .exit{
+    margin: 10px 0 0 0;
+  }
+}
